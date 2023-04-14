@@ -37,7 +37,7 @@ INSERT INTO employees (name, employee_number) VALUES ('Joe', 98723);
 INSERT INTO employees (name, employee_number) VALUES ('Anna', 67752);
 INSERT INTO employees (name, employee_number) VALUES ('Phil', 77762);
 INSERT INTO employees (name, employee_number) VALUES ('Iain', 37845);
-INSERT INTO employees (name, employee_number) VALUES ('Subrina', 73931)
+INSERT INTO employees (name, employee_number) VALUES ('Subrina', 73931);
 
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Big Cat Field', 20, FALSE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Reptile House', 30, FALSE);
