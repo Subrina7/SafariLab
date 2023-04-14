@@ -37,11 +37,13 @@ INSERT INTO employees (name, employee_number) VALUES ('Joe', 98723);
 INSERT INTO employees (name, employee_number) VALUES ('Anna', 67752);
 INSERT INTO employees (name, employee_number) VALUES ('Phil', 77762);
 INSERT INTO employees (name, employee_number) VALUES ('Iain', 37845);
+INSERT INTO employees (name, employee_number) VALUES ('Subrina', 73931)
 
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Big Cat Field', 20, FALSE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Reptile House', 30, FALSE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Petting Zoo', 10, TRUE);
 INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Bird Cage', 50, FALSE);
+INSERT INTO enclosures (name, capacity, closed_for_maintenance) VALUES ('Aquarium', 70, FALSE);
 
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Leo', 'Lion', 12, 1);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Polly', 'Parrot', 21, 4);
@@ -58,6 +60,7 @@ INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Nigel', 'Newt', 3, 
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Naomi', 'Newt', 3, 2);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Harry', 'Hamster', 1, 3);
 INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Terry', 'Tiger', 17, 1);
+INSERT INTO animals (name, type, age, enclosure_id) VALUES ('Nemo', 'Clown Fish', 7, 5);
 
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 2, 'Monday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Wednesday');
@@ -70,3 +73,4 @@ INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 2, 'Wednesda
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (1, 1, 'Monday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 4, 'Friday');
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Saturday');
+INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (7, 5, 'Saturday');
